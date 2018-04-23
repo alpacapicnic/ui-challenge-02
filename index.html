@@ -4,51 +4,38 @@
 <head>
   <meta charset="utf-8">
     <title>UI-Challenge-02</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <form class="input">
             TEXT INPUT:<br>
             <input type="text" placeholder="PLACEHOLDER TEXT"><br>
-    </form>
+    </form><br>
     <form class="input-v">
-        <p>
+        <label>
             TEXT INPUT w/VALIDATION:<br>
-            <input type="text" placeholder="PLACEHOLDER TEXT"><br>
-        </p>
+            <input type="text" id="field" placeholder="PLACEHOLDER TEXT"> <div id="invalid"></div><br>
+        </label>
     </form>
-    <form>
-        <p>
-            <select class="select">
+    <nav class="select">
                 <option value="" disabled selected>Please select an option...</option>
                 <option value="1">OPTION 1</option>
                 <option value="2">OPTION 2</option>
                 <option value="3">OPTION 3</option>
                 <option value="4">OPTION 4</option>
                 <option value="5">OPTION 5</option>
-            </select>
-        </p>
-    </form>
-    <form class="checkbox">
-        <p>
-            <input type="checkbox" name="" value="">  
-        </p>
-    </form>
-    <form>
-        <p>
-            <input type="radio" name="" value=""> 
-        </p>
-    </form>
-    <form>
-        <p>
-            <input type="submit" value="submit">
-        </p>
-    </form>
+    </nav><br>
+      
 
+    <div class="check">Checkbox</div><br>
+    <div class="radio">Radio</div>
+        <br>
 
+    <div class="submit">Submit</div>
+    
 
-
-  <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="custom.js"></script>
 </body>
 </html>

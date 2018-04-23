@@ -1,0 +1,52 @@
+
+div.input{
+    display:none;
+}
+
+/* SELECT BOX ARROWS */
+.selec {
+	background: url('sprites/form-elements-sprite.png') no-repeat -1035px -280px;
+	width: 10px;
+	height: auto;
+}
+.select {
+	background: url('sprites/form-elements-sprite.png') no-repeat -1143px -280px;
+	width: 200px;
+    height: 20px;
+    border: .5px solid gray;
+}
+/* CHECKBOX */
+.check{
+	background: url('sprites/form-elements-sprite.png') no-repeat -158px -239px;
+	width: 161px;
+	height: 160px;
+}
+.sprite {
+	background: url('sprites/form-elements-sprite.png') no-repeat -381px -239px;
+	width: 161px;
+	height: 160px;
+}
+/* RADIO BUTTON */
+.radio {
+	background: url('sprites/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+.test img {
+	background: url('sprites/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
+/* SUBMIT BUTTON */
+.submit{
+    background-color: rgb(199, 198, 198);
+    text-align: center;
+    color: black; 
+    width: 70px;
+    height: 30px;
+    padding-top: 10px;
+}
+.submit:hover {
+    background-color: darkslategray;
+    color: white;
+}
